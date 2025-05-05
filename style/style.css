@@ -1,0 +1,239 @@
+
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --yellow-55: #FFD11A;
+  --yellow-60: #FFD633;
+  --yellow-70: #FFE066;
+  --yellow-80: #FFEB99;
+  --yellow-90: #FFF5CC;
+  --yellow-95: #FFFAE5;
+  --yellow-97: #FFFCF0;
+  --yellow-99: #FBFBFE;
+  --dark-08: #141414;
+  --dark-10: #1A1A1A;
+  --dark-15: #262626;
+  --dark-20: #333333;
+  --dark-25: #404040;
+  --dark-30: #4D4D4D;
+  --dark-35: #595959;
+  --dark-40: #666666;
+  --grey-50: #7E7E81;
+  --grey-60: #98989A;
+  --grey-70: #B3B3B3;
+  --grey-80: #CCCCCC;
+  --grey-90: #E4E4E7;
+  --grey-95: #F1F1F3;
+  --grey-97: #F7F7F8;
+  --grey-99: #FCFCFD;
+}
+
+body {
+  background-color: var(--dark-10);
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* header  */
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.header__nav-list {
+  display: flex;
+  gap: 16px;
+}
+.header__nav-link {
+  padding: 14px 24px;
+  color: var(--grey-50);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.header__button {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background-color: var(--yellow-55);
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.active {
+  background-color: var(--dark-08);
+  border: 1px solid var(--dark-20);
+  color: var(--white);
+}
+
+/* head  */
+
+.head {
+  background-color: var(--dark-08);
+  border: 1px solid var(--dark-15);
+}
+.head__top {
+  display: flex;
+}
+.head__texts {
+  border: 1px solid var(--dark-15);
+  padding-left: 162px;
+}
+.head__topTitle {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--dark-40);
+  margin-top: 150px;
+}
+.head__title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  color: var(--white);
+}
+.head__text {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--grey-50);
+  max-width: 893px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.head__results {
+  padding-left: 162px;
+  display: flex;
+}
+.characteristic {
+  padding: 50px 110px;
+  border-right: 1px solid var(--dark-15);
+}
+.characteristic:first-child {
+  padding-left: 0;
+}
+.characteristic__number {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+}
+.span__text {
+  color: var(--yellow-55);
+}
+.characteristic__text {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--grey-60);
+}
+.head__ridht-avatars {
+  padding: 10px;
+  background-color: var(--dark-10);
+  border-radius: 100px;
+  margin-top: 200px;
+  max-width: 246px;
+  margin-left: 80px;
+}
+.head__right-avatar {
+  background-color: var(--dark-15);
+  border-radius: 42px;
+  border: 2px solid var(--dark-40);
+  margin-left: -14px;
+}
+.head__right-avatar:first-child {
+  margin: 0;
+}
+.head__right-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 80px;
+  margin-top: 30px;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+}
+.head__right-text {
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: "Inter", sans-serif;
+  color: var(--grey-60);
+}
+.head__right-button {
+  display: flex;
+  padding: 18px 24px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--dark-15);
+  border-radius: 12px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.right__button-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-60);
+  font-family: "Inter", sans-serif;
+}
+
+.head__bottom {
+  background-color: var(--dark-08);
+}
+.head__bottom-cards {
+  display: flex;
+}
+.bottom__card {
+  border-right: 1px solid var(--dark-15);
+  padding: 50px 0;
+  margin-left: 80px;
+}
+.bottom__card:first-child {
+  margin: 0;
+}
+.bottom__card:last-child {
+  border: none;
+}
+.bottom__card-icon {
+}
+.bottom__card-texts {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.card__flex {
+}
+.bottom__card-title {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  width: 353px;
+}
+.bottom__card-subtitle {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--grey-50);
+  font-family: "Inter", sans-serif;
+}
+.bottom__card-button {
+  background-color: var(--yellow-55);
+  padding: 14px;
+  border-radius: 100px;
+  margin-right: 50px;
+}
+.card__button-icon {
+  
+}
+.bottom__card-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: var(--grey-60);
+  margin-top: 30px;
+}
